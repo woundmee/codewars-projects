@@ -9,6 +9,7 @@ public class Kata
     {
         bool str = Regex.IsMatch(pin, @"[^0-9]");
         return pin.Length == 4 & str == false | pin.Length == 6 & str == false ? true : false;
+        // комментарий - тест
     }
 }
 
